@@ -1,28 +1,13 @@
-# reporte-de-errores-informatorio
+|                    |                                                                                                                                                                                  |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  ID                   |   US001                                  |
+| Historia de Usuario  |  <b>Como</b> usuario del e-commerce registrado de la plataforma, <b>quiero</b> iniciar sesión de manera segura y eficiente <b>para</b> acceder a mi cuenta personal y utilizar todas las funcionalidades disponibles                                                                                                                                                                               |
+| Criterios de Aceptacion |    1. El campo “Username” debe permitir ingresar un máximo 20 caracteres.<br> 2. El campo “Password” debe permitir un como máximo 20 caracteres.<br> 3. Si el usuario ingresa credenciales correctas, debe ser redirigido a la página de inicio.<br> 4. Si el usuario ingresa un nombre de usuario que no está registrado en el sistema, se debe mostrar un mensaje informativo que indique que el usuario no se encuentra registrado.<br> 5. Si el usuario ingresa una contraseña incorrecta, se debe mostrar un mensaje informativo que indique que la contraseña es incorrecta.<br> 6. Si el usuario intenta iniciar sesión sin ingresar el nombre de usuario o contraseña, se debe mostrar un mensaje informativo que indique que los campos son obligatorios.<br> 7. En caso de múltiples intentos fallidos de inicio de sesión, la cuenta debe bloquearse temporalmente y mostrar un mensaje informativo que indique este bloqueo.                                                                                                                                                                         |
 
-### Repositorio para practicar reporte de errores y pull request para clase de Testing en Informatorio Chaco
+<hr>
 
-- Abrimos una página web (cualquiera)
-- Mostramos un bug
-- Reportamos el bug especificando: Título, breve descripción, pasos de reproducción, el resultado esperado y el obtenido.
-- Agregamos capturas de pantalla.
-- Ingresamos el tipo de bug según lo visto en clases.
-- Agregamos información extra que creemos necesaria (hardware, sistema operativo, criticidad, precondiciones etc…)
-
-Ejemplo de reporte de errores:
-
-|                    |                                                                                                                                                                                                               |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Título             | Homepage Versa - Página en blanco                                                                                                                                                                             |
-| Descripción        | Cuando ingresas haciendo clic o a través del endpoint a la página del vehículo Versa, queda totalmente en blanco.                                                                                             |
-| Pasos              | 1. Ingresar: [https://www.nissan.com.py/](https://www.nissan.com.py/)<br> <br>2. Scrollear a la sección “TODOS LOS VEHÍCULOS”<br> <br>3. Click en “NUEVO NISSAN VERSA”<br> <br>4. Visualizar página en blanco |
-| Resultado esperado | La página debe mostrar detalles, datos y fotos sobre el vehículo Nissan Versa.                                                                                                                                |
-| Resultado obtenido | Página totalmente en blanco.                                                                                                                                                                                  |
-
-### Ejemplo Sentra (funciona)
-
-![Imagen de la página del Sentra](https://github.com/Tusuegra510/reporte-de-errores-informatorio/blob/main/img/sentra.png)
-
-### Ejemplo Versa (falla)
-
-![Imagen de la página del Sentra](https://github.com/Tusuegra510/reporte-de-errores-informatorio/blob/main/img/versa.png)
+|                    |                                                                                                                                                                                  |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ID                   |   US002                                                                                                                                         |
+| Historia de Usuario  | <b>Como</b> usuario nuevo, <b>quiero</b> registrarme de manera efectiva y segura <b>para</b> crear una cuenta personal y utilizar todas las funcionalidades disponibles.|
+| Criterios de Aceptacion |  1. El campo “Username” debe permitir ingresar un máximo 20 caracteres.<br>2. El sistema debe verificar que la contraseña ingresada por el usuario cumpla con los siguientes criterios: tener al menos 8 caracteres, no exceder los 20 caracteres y contener una combinación de letras, números y al menos un carácter especial.<br>3. El sistema debe verificar que el nombre de usuario sea único y no esté asociado a otra cuenta existente en la plataforma. En caso de no ser único, se mostrará un mensaje informativo que indique que el usuario ya está registrado.<br>4. Si el usuario intenta registrarse sin ingresar el nombre de usuario o la contraseña, se mostrará un mensaje informativo que indique que los campos son obligatorios.<br>5. Si el usuario proporciona datos válidos, el registro se completará con éxito y se le redirigirá a la página de inicio                                                                                       |
