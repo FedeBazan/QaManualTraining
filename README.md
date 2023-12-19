@@ -17,6 +17,7 @@ Plantilla Test Cases:
 | Resultado obtenido |                                                                                                                                                                                                               |
 | Estado             |                                                                                                                                                                                                               |
 | Comentario         |                                                                                                                                                                                                               |
+| Ambiente         |                                                                                                                                                                                                               |
 | ID Issues          |                                                                                                                                                                                                               |
 
 Plantilla Report:
